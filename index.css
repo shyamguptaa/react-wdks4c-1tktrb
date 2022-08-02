@@ -2,7 +2,7 @@
   border-left: 1px solid black;
   border-right: 1px solid black;
   border-bottom: 1px solid black;
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 5px 5px 10px 10px;
   position: relative;
   border-top: 1px solid black;
 }
@@ -10,14 +10,4 @@
   padding-right: 10px;
 }
 
-.container:after {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 100px;
-  height: 200px;
-  top: -15px;
-  left: -55px;
-  border: 15px solid white;
-}
 
