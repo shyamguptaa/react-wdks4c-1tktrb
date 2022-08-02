@@ -4,7 +4,7 @@
   border-bottom: 1px solid black;
   border-radius: 0px 0px 10px 10px;
   position: relative;
-  
+  border-top: 1px solid black;
 }
 .gutter-row {
   padding-right: 10px;
@@ -15,22 +15,9 @@
   display: block;
   position: absolute;
   width: 100px;
-  left: -115px;
-  border: -115px solid white;
-}
-.mainDiv {
-  width: 200px;
-  height: 50px;
-  border: 5px solid red;
-  position: relative;
+  height: 200px;
+  top: -15px;
+  left: -55px;
+  border: 15px solid white;
 }
 
-.mainDiv:after {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 100px;
-  top: -5px;
-  left: 0px;
-  border: 5px solid white;
-}
